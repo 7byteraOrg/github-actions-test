@@ -3,7 +3,7 @@ name: mbosfscan
 on:
   push:
     branches: [ master, main ]
-  pull_requests:
+  pull_request:
     branches: [ master, main]
 
 jobs:
